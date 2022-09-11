@@ -26,8 +26,6 @@
 SoftwareSerial mySerial(2, 3);
 
 #else
-// On Leonardo/M0/etc, others with hardware serial, use hardware serial!
-// #0 is green wire, #1 is white
 #define mySerial Serial1
 
 #endif
